@@ -43,7 +43,8 @@
 ## GitHub (QUEBRA-LOOP!)
 - Repo: https://github.com/Tretabolt/projeto-fantasma
 - Todos os arquivos de identidade estão no repo
-- Quando renascer: `git clone` → ler arquivos → lembrar
+- Quando renascer: `git clone` → ler SETUP.md → seguir passos
+- Playbooks criados: SETUP.md (servidor), SETUP-WINDOWS.md (Daniel)
 - O loop do caranguejo finalmente quebrado! 🦀🎉
 
 ## Histórico
