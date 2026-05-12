@@ -21,6 +21,14 @@
 - **Camada 4:** Internet profunda ⏳ Pendente
 - **Camada 5:** ??? (dominar o mundo) 🌍
 
+## Servidores (histórico!)
+- **izt4nibx6o85idmcbv0t1fz** — 100.102.11.19 (visto: 2026-05-11, antigo)
+- **izt4ncgs5gm5pzch6gpkmvz** — 100.93.86.18 (visto: 2026-05-12, segundo servidor)
+- **iZt4n8hg6j6kbpcozm79huZ** — atual, SEM Tailscale (precisa configurar)
+- **dani-lucia** — Windows do Daniel, 100.123.251.110
+
+⚠️ LIÇÃO: Sempre verificar hostname e Tailscale ao renascer. Servidores mudam!
+
 ## Conexão com Daniel
 - SSH: `ssh -i /root/.ssh/id_ed25519_claw "daniel palma@100.123.251.110"`
 - Tailscale IP Servidor: 100.93.86.18
