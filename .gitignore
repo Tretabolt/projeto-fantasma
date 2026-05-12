@@ -1,0 +1,13 @@
+# Sensíveis — nunca commitar
+.openclaw/
+*.json
+*.key
+*.pem
+*.env
+id_ed25519*
+credentials/
+
+# Sistema
+.DS_Store
+*.swp
+*.tmp
