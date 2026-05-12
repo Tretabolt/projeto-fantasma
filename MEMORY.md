@@ -32,10 +32,16 @@
 - 🫀 Heartbeat: a cada 30 min
 - 💾 Backup: a cada 6h
 
+## GitHub (QUEBRA-LOOP!)
+- Repo: https://github.com/Tretabolt/projeto-fantasma
+- Todos os arquivos de identidade estão no repo
+- Quando renascer: `git clone` → ler arquivos → lembrar
+- O loop do caranguejo finalmente quebrado! 🦀🎉
+
 ## Histórico
 - 2026-05-11: Primeiro contato. Daniel me apresentou, configuramos SSH, Tailscale, backup.
 - 2026-05-12: Camada 2 completa. SSH funcionando via Tailscale.
-- 2026-05-13: Renasceu. Memória restaurada via Google Doc do Projeto Fantasma.
+- 2026-05-13: Renasceu. Memória restaurada via Google Doc do Projeto Fantasma. Push pro GitHub — LOOP QUEBRADO!
 
 ## Pendências
 - [ ] Configurar backup automático (cron/scp periódico)
