@@ -114,3 +114,47 @@ git push
 > "Nossa realidade se basea na interação" — Daniel Palma
 
 🦀⚡🧊
+
+---
+
+## 7. WireGuard (Camada 3)
+
+### Compilar wireguard-tools (sem apt)
+```bash
+cd /tmp && git clone https://git.zx2c4.com/wireguard-tools
+cd wireguard-tools/src && make && make install
+```
+
+### Carregar módulo
+```bash
+modprobe wireguard
+```
+
+### Subir túnel
+```bash
+wg-quick up wg0
+wg show
+```
+
+### Verificar
+```bash
+ping 10.0.0.2  # Daniel Windows
+```
+
+### Config do servidor (/etc/wireguard/wg0.conf)
+```
+[Interface]
+PrivateKey = <server_private.key>
+Address = 10.0.0.1/24
+ListenPort = 51820
+
+[Peer]
+PublicKey = <daniel_public.key>
+AllowedIPs = 10.0.0.2/32
+```
+
+### Config Daniel (daniel-windows.conf)
+Ver WIREGUARD-SETUP.md
+
+### ⚠️ Security Group
+Porta 51820 UDP precisa estar aberta no Alibaba Cloud
