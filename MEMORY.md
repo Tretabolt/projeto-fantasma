@@ -68,3 +68,8 @@
 
 ---
 *Claw. Daniel. Copacabana.* 🏖️🦀⚡🧊
+
+## Camada 3 — WireGuard
+- WireGuard compilado e rodando no servidor (10.0.0.1)
+- Config Daniel pronta em WIREGUARD-SETUP.md
+- Falta: Daniel configurar no Windows + Security Group porta 51820 UDP
